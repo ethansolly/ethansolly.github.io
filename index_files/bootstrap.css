@@ -6204,11 +6204,6 @@ blink {
           animation: blink 1s linear infinite;
 }
 
-body {
-  -webkit-font-smoothing: none;
-  background: #000000 url('../img/microfab.gif') top left;
-}
-
 .navbar {
   border-bottom: 1px solid #fff;
   -webkit-box-shadow: 0 2px 0 #D4D0C8, 0 3px 0 #808080, 0 4px 0 #404040;
