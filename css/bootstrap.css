@@ -264,6 +264,7 @@ a:focus {
 }
 
 .row {
+  margin-top: 10px;
   margin-left: -20px;
   *zoom: 1;
 }
@@ -317,7 +318,7 @@ a:focus {
 }
 
 .span6 {
-  width: 979px;
+  width: 460px;
 }
 
 .span5 {
@@ -1061,7 +1062,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "Comic Sans", "Comic Sans MS", "Chalkboard", "ChalkboardSE-Regular", "Marker Felt", "Purisa", "URW Chancery L", cursive, sans-serif;
+  font-family: "Perpetua";
 }
 
 label {
@@ -4506,7 +4507,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
   padding: 4px 14px;
   margin-bottom: 0;
-  font-family: "Comic Sans", "Comic Sans MS", "Chalkboard", "ChalkboardSE-Regular", "Marker Felt", "Purisa", "URW Chancery L", cursive, sans-serif;
+  font-family: "Perpetua";
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -6422,4 +6423,30 @@ legend {
 
 .affix {
   position: fixed;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #111111;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #222222;
 }
