@@ -4088,12 +4088,14 @@ input[type="submit"].btn.btn-mini {
           border-radius: 5px;
 }
 
+/*
 .nav-pills > .active > a,
 .nav-pills > .active > a:hover,
 .nav-pills > .active > a:focus {
   color: #ffffff;
   background-color: #00eeee;
 }
+*/
 
 .nav-stacked > li {
   float: none;
